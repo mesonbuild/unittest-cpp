@@ -15,4 +15,4 @@ unittest_cpp_dep = declare_dependency(
     link_with : unittest_cpp_lib,
     include_directories : '.')
 
-# subdir('tests')
+subdir('tests')
